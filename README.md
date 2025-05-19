@@ -48,7 +48,7 @@ The design combines subtle animations with performance-aware scroll behavior to 
 
 Landing Page ![Image](https://github.com/user-attachments/assets/e060112f-ab0c-4dce-990e-3c6570a3c2d8)
 About Section![Image](https://github.com/user-attachments/assets/0338ca50-fb33-4593-a038-971dbb3ab9d7)
-Skill Section ![Image](https://github.com/user-attachments/assets/ea0afbf6-1818-4ff5-943d-99835d1f8898)
+Skill Section ![Image](https://github.com/user-attachments/assets/e945084a-1cea-4c3d-95ff-a410ca884250)
 Project Section ![Image](https://github.com/user-attachments/assets/3f4d152f-b374-4fc9-bd99-3024f3f11e01)
 Contact Section ![Image](https://github.com/user-attachments/assets/e7568a47-8d4b-4e82-bf35-757d080a668a)
 
