@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saksham's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div data-scroll-container>
+
+    <header id="navbar">
+      <nav>
+        
+        <ul>
+          <li class="nav-links"><a href="#" data-scroll-to="#home">Home</a></li>
+          <li class="nav-links"><a href="#" data-scroll-to="#about">About</a></li>
+          <li class="nav-links"><a href="#" data-scroll-to="#skills">Skills</a></li>
+          <li class="nav-links"><a href="#" data-scroll-to="#projects">Projects</a></li>
+          <li class="nav-links"><a href="#" data-scroll-to="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="section hero" data-scroll-section>
+      <div class="hero-content" data-scroll>
+        <h1 data-scroll-speed="2">Hey, I'm <span class="highlight">Saransh Vaidya</span></h1>
+        <p data-scroll-speed="1">Web Developer & Cybersecurity Enthusiast</p>
+        <a href="#" data-scroll-to="#projects" class="btn">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section" data-scroll-section>
+      <h2>About <span class="highlight">Me</span></h2>
+
+      <p>I’m a motivated second-year Computer Science student with a passion for ethical hacking, threat analysis, and
+        frontend development. With a strong foundation in web technologies and cybersecurity, I enjoy leveraging tech to
+        solve real-world challenges. Currently exploring opportunities to collaborate on innovative projects and expand
+        my knowledge in both development and security fields.</p>
+    </section>
+
+    <section id="skills" class="section" data-scroll-section>
+      <h2><span class="highlight">My</span> Skills</h2>
+      <div class="skills-container">
+        <div class="skill-block" data-scroll>
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript, Python, C, C++</li>
+            <li>React.js, Node.js, Tailwind CSS, Bootstrap</li>
+            <li>REST APIs, Responsive Design, UI/UX Design</li>
+            <li>Git/GitHub, VS Code, Figma, SAP Library</li>
+          </ul>
+        </div>
+
+        <div class="skill-block" data-scroll>
+          <h3>Cybersecurity</h3>
+          <ul>
+            <li>TCP/IP, DNS, VPNs, Python, Bash</li>
+            <li>Wireshark, Nmap, Metasploit, Snort, Nessus</li>
+            <li>Reconnaissance, Threat Analysis, IDS</li>
+            <li>Disk & Memory Forensics, Docker Analysis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" data-scroll-section>
+      <h2>My <span class="highlight">Projects</span></h2>
+
+      <div class="project-list">
+        <div class="project-card" data-scroll>
+          <div class="overlay"></div>
+          <h3>MediVision – Healthcare Web App</h3>
+          <p>Built the frontend using HTML, CSS, JS, and SAP Library. Created a responsive and interactive UI for
+            diagnosing medical scans.</p>
+        </div>
+        <div class="project-card" data-scroll>
+          <div class="overlay"></div>
+          <h3>Portfolio Website</h3>
+          <p>Designed a personal portfolio using HTML, CSS, JS, and SAP Library. Included a responsive and interactive
+            UI.</p>
+        </div>
+        <div class="project-card" data-scroll>
+          <div class="overlay"></div>
+          <h3>Virtual Cybersecurity Lab</h3>
+          <p>Simulated attack and defense in VirtualBox. Practiced pen testing with Wireshark and Metasploit.</p>
+        </div>
+        <div class="project-card" data-scroll>
+          <div class="overlay"></div>
+          <h3>Python-Based Recon Tool</h3>
+          <p>Built a Python scanner using Nmap module. Included a UI for various search operations.</p>
+        </div>
+        <div class="project-card" data-scroll>
+          <div class="overlay"></div>
+          <h3>Automated Bug Bounty Scanner</h3>
+          <p>Automated recon, scanning, and reporting. Used Python and tools for enumeration and vulnerability logging.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="section" data-scroll-section>
+      <h2><span class="highlight">Contact</span> Me</h2
+        >
+      <div class="contact-wrapper">
+    
+        <!-- Contact Info -->
+        <div class="contact-details">
+          <p class="contact-item">
+            <img class="icon" src="./assets/gmail.webp" alt="Gmail" />
+            <strong>saranshvaidya1795@gmail.com</strong>
+          </p>
+          <p class="contact-item">
+            <img class="icon" src="./assets/phone.png" alt="Phone" />
+            +91-9993701864
+          </p>
+          <p class="contact-item socials">
+            <a href="https://www.linkedin.com/in/saransh-vaidya-902024348/" target="_blank">
+              <img class="icon" src="./assets/LinkedIn_icon.svg" alt="LinkedIn" />
+            </a> |
+            <a href="https://github.com/saranshvaidya" target="_blank">
+              <svg height="28" viewBox="0 0 24 24" width="28" fill="white" aria-hidden="true">
+                <path
+                  d="M12 1C5.9 1 1 5.9 1 12c0 4.9 3.1 9 7.4 10.4.5.1.6-.2.6-.4v-1.4c-3 .7-3.6-1.5-3.6-1.5-.5-1.3-1.1-1.6-1.1-1.6-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1 3 .7.1-.7.3-1 .5-1.2-2.4-.3-4.9-1.2-4.9-5.2 0-1.2.4-2.1 1-2.9-.1-.2-.4-1.3.1-2.7 0 0 .9-.3 2.9 1 .9-.2 1.9-.3 2.9-.3s2 .1 2.9.3c2-.1 2.9-1 2.9-1 .5 1.4.2 2.5.1 2.7.6.8 1 1.8 1 2.9 0 4-2.5 4.9-4.9 5.2.4.3.6.8.6 1.5v2.2c0 .2.2.5.6.4C20.9 21 24 16.9 24 12c0-6.1-4.9-11-11-11z" />
+              </svg>
+            </a>
+          </p>
+        </div>
+    
+        <!-- Contact Form -->
+        <form class="contact-form" action="https://formsubmit.co/saranshvaidya1795@gmail.com" method="POST">
+          <input id="form-item" type="text" name="name" placeholder="Your Name" required />
+          <input id="form-item" type="email" name="email" placeholder="Your Email" required />
+          <textarea id="form-item" name="message" placeholder="Your Message" rows="5" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value="New Message from Portfolio Contact Form" />
+          <button id="form-item" type="submit" class="btn">Send Message</button>
+        </form>
+    
+      </div>
+    </section>   
+    <footer class="footer" data-scroll-section>
+      <p>&copy; 2025 Saransh Vaidya • All Rights Reserved</p>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+    integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+    integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
